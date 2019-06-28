@@ -1,0 +1,55 @@
+<h1>Distancias</h1>
+<p>Digite os dados</p>
+<form>
+  <table class='table'>
+    <thead>
+      <tr></tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Nome</td>
+      </tr>
+      <tr>
+        <td><input type="text" #nome /></td>
+      </tr>
+      <tr>
+        <td>Latitude</td>
+      </tr>
+      <tr>
+        <td><input type="text" #latitude /></td>
+      </tr>
+      <tr>
+        <td>Longitude</td>
+      </tr>
+      <tr>
+        <td><input type="text" #longitude /></td>
+      </tr>
+      <tr>
+        <td>
+          <button  (click) = "buscarAmigos(nome.value, latitude.value, longitude.value)" class="btn btn-primary">Buscar</button>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+  <h1>Amigos</h1>
+
+  <p *ngIf="!distancia.calculoHistoricoLogs"><em>Loading...</em></p>
+
+  <table class='table' *ngIf="distancia.calculoHistoricoLogs">
+    <thead>
+      <tr>
+        <th>Nome</th>
+        <th>Longitude</th>
+        <th>Latitude</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let historico of distancia.calculoHistoricoLogs">
+        <td>{{ historico.nomeAmigo }}</td>
+        <td>{{ historico.longitudeDestino }}</td>
+        <td>{{ historico.latitudeDestino }}</td>
+      </tr>
+    </tbody>
+  </table>
+</form> 
+

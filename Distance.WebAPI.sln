@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distance.Infra.Data", "Dist
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distance.Domain", "Distance.Domain\Distance.Domain.csproj", "{24890F6A-C619-4343-9FCE-985DDB6859AB}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distance.Web", "..\Distance.Web\Distance.Web\Distance.Web.csproj", "{AAEAB69D-E92F-4A71-9258-738A5DC035BE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Distance.Web", "Distance.Web\Distance.Web\Distance.Web.csproj", "{73C7001D-07D1-4AC5-BE49-E63C16B547C5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{24890F6A-C619-4343-9FCE-985DDB6859AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{24890F6A-C619-4343-9FCE-985DDB6859AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{24890F6A-C619-4343-9FCE-985DDB6859AB}.Release|Any CPU.Build.0 = Release|Any CPU
-		{AAEAB69D-E92F-4A71-9258-738A5DC035BE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{AAEAB69D-E92F-4A71-9258-738A5DC035BE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{AAEAB69D-E92F-4A71-9258-738A5DC035BE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{AAEAB69D-E92F-4A71-9258-738A5DC035BE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{73C7001D-07D1-4AC5-BE49-E63C16B547C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{73C7001D-07D1-4AC5-BE49-E63C16B547C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{73C7001D-07D1-4AC5-BE49-E63C16B547C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{73C7001D-07D1-4AC5-BE49-E63C16B547C5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

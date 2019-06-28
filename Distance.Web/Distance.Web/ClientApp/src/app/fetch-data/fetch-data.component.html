@@ -1,0 +1,20 @@
+<h1>Amigos</h1>
+
+<p *ngIf="!distancia.calculoHistoricoLogs"><em>Loading...</em></p>
+
+<table class='table' >
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Longitude</th>
+      <th>Latitude</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let historico of distancia.calculoHistoricoLogs">
+      <td>{{ historico.nomeAmigo }}</td>
+      <td>{{ historico.longitudeDestino }}</td>
+      <td>{{ historico.latitudeDestino }}</td>
+    </tr>
+  </tbody>
+</table>
